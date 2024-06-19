@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Button, Alert } from 'react-native';
 import { Accelerometer } from 'expo-sensors';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
-
+//Jason say Hi
 export default function AccelerometerScreen() {
   const navigation = useNavigation();
   const [data, setData] = useState({
